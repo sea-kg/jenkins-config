@@ -22,3 +22,7 @@ Restart=always
 RestartSec=15
 ExecStart=/usr/bin/jenkins
 Restart=on-failure
+
+
+[Install]
+WantedBy=user.target
