@@ -25,4 +25,4 @@ Restart=on-failure
 
 
 [Install]
-WantedBy=user.target
+WantedBy=multi-user.target
