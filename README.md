@@ -1,12 +1,20 @@
 # jenkins-config
 
+Short install:
 
+```
+$ sudo apt install git openjdk-21-jre-headless
+$ sudo adduser jenkins
+$ sudo git clone https://github.com/sea-kg/jenkins-config /home/jenkins/jenkins-config.git
+$ cd /home/jenkins/jenkins-config.git
+$ sudo ./install.sh
+```
 
-## Download
+## Manual Download
 
 Download from here https://www.jenkins.io/download/
 
-## Getting started with the Guided Tour
+## Helper Getting started with the Guided Tour
 
 Original item: https://www.jenkins.io/doc/pipeline/tour/getting-started/
 
@@ -42,6 +50,6 @@ Download and run Jenkins
 When the installation is complete, you can start putting Jenkins to work!
 
 
-## systemd example
+## Helper systemd example
 
 https://www.jenkins.io/doc/book/system-administration/systemd-services/
