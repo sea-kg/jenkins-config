@@ -1,12 +1,12 @@
-# jenkins-config
+# jenkins-install
 
 Short install:
 
 ```
 $ sudo apt install git openjdk-21-jre-headless
 $ sudo adduser jenkins
-$ sudo git clone https://github.com/sea-kg/jenkins-config /home/jenkins/jenkins-config.git
-$ cd /home/jenkins/jenkins-config.git
+$ sudo git clone https://github.com/sea-kg/jenkins-install /home/jenkins/jenkins-install.git
+$ cd /home/jenkins/jenkins-install.git
 $ sudo ./install.sh
 ```
 
