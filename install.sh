@@ -31,3 +31,6 @@ systemctl daemon-reload
 
 echo "Restarting jenkins.service"
 systemctl restart jenkins
+
+echo "Added to autostart"
+systemctl enable jenkins
