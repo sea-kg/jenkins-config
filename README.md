@@ -10,6 +10,16 @@ $ cd /home/jenkins/jenkins-install.git
 $ sudo ./install.sh
 ```
 
+Will be here:
+
+http://localhost:8082/
+
+
+Check status:
+```
+$ systemctl status jenkins.service
+```
+
 ## Manual Download
 
 Download from here https://www.jenkins.io/download/
